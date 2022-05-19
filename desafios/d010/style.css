@@ -1,0 +1,104 @@
+body {
+    margin: 0px;
+    background-color: #84E1AD;
+}
+
+main {
+    color: white;
+    background-color: rgb(31, 228, 120);
+    background: linear-gradient(#32B46C, #1f6e43);
+    padding: 1px;
+}
+
+main > h1, p, a {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+main > p {
+    color: #A6C7B3;
+}
+
+ul#menu {
+    padding: 0px;
+    margin: 5px;
+}
+
+ul#menu > li {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+nav > ul > li > a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+article {
+    margin: auto;
+    padding: 15px;
+    background-color: white;
+    height: 1315px;
+    width: 800px;
+}
+
+article > h1 {
+    margin: 0px;
+}
+
+.video {
+    text-align: center;
+    height: 490px;
+}
+
+#extra {
+    height: 475px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#quadro {
+    background-color: #C5EBD6;
+    height: 400px;
+    color: black;
+    border-radius: 10px;
+}
+
+#quadro > h1 {
+    background-color: #2FA866;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    color: white;
+    font-family: sans-serif;
+}
+
+#extra > p {
+    text-align: left;
+    text-indent: 20px;
+    padding: 0px 10px;
+}
+
+.listas ul {
+    display: inline-block;
+    margin: 0px 100px 0px 20px;
+}
+
+footer {
+    background-color: #1A5B38;
+    color: white;
+    padding: 7px;
+    margin-top: 15px;
+}
+
+footer > p {
+    margin: 0px;
+}

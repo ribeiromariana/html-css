@@ -1,0 +1,13 @@
+
+* {
+    min-height: 100%;
+}
+
+body {
+    background-image: linear-gradient(180deg , #CACACA, #202022);
+    text-align: center;
+}
+
+h1, p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

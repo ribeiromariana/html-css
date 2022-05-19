@@ -1,0 +1,9 @@
+body {
+    background-image: linear-gradient(90deg, #00747C, #00BBC9, #202022);
+    text-align: center;
+}
+
+h1, p {
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}

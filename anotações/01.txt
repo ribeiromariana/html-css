@@ -1,0 +1,6 @@
+tags novas;
+
+<address> </address> = para se referir a um endereço.
+<strong> </strong> = dar força ou potência ao texto (conhecido como negrito)
+
+**DICA**: para colocar essas tags de forma mais fácil, selecione o texto que quer colocar e aperte as  teclas 'ctrl' + 'shft' + 'p' e então escreva 'abb' e escolha a ferramenta correta. Pronto!

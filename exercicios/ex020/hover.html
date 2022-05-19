@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: red;
+            width: 200px;
+        }
+
+        div:hover{
+            color: red;
+        }
+
+        #meuteste {
+            text-align: center;
+            background-color: lightblue;
+            width: 400px;
+        }
+
+        #meuteste:hover {
+            color: white;
+        }
+
+        #meuteste:hover > p{
+            color: rgb(36, 36, 36);
+            background-color: lightblue;
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            color: red;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .especial:hover {
+            background-color: black;
+            color: white;
+            text-decoration: none;
+        }
+
+        .especial:before {
+            content: '>';
+            font-weight: lighter;
+        }  
+        
+        .especial::after {
+            content: '<';
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de holver</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        passe o mouse aqui
+        <p>TEXTO ESCONDIDO...
+        </p>
+    </div>
+    <p>Fim do exemplo</p>
+
+    <hr>
+    <h1>Bom dia!</h1>
+
+    <div id="meuteste">
+        Passe o mouse aqui e ganhe uma surpresa!
+        <p>Esse cookie &#x1F36A é pra você!</p>
+    </div>
+
+    <hr>
+
+    <h1>Mais testes </h1>
+    <p>Para aprender HTML e CSS, acesse o <a href="https://gustavoguanabara.github.io" target="_blank" rel="external">Github do Guanabara</a>.</p>
+
+    <p>Se quiser aprender mais sobre os padrões, visite o site do <a href="https://www.w3c.br" target="_blank" rel="external">Escritório do W3C no Brasil</a>.</p>
+
+    <p>Para aconpanhar os vídeos, acesse <a href="https://www.youtube.com/cursoemvideo/" target="_blank" rel="external" class="especial">canal do CursoEmVídeo</a>.</p>
+</body>
+</html>

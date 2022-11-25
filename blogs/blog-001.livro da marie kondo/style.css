@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+*{
+    --cor01: #F29E89;
+    --cor02: #80706C;
+    --cor03: #E6678F;
+    --cor04: #B2E9A3;
+    --cor05: #80B33E;  
+}
+
+body {
+    background-color: var(--cor01);
+    margin: 0px
+}
+
+header{
+    background-color: rgb(20, 27, 20);
+    height: 70px;
+}
+header > div {
+
+    
+    width: 40px;
+    height: 40px;
+}
+div.cores a{
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+div#um a{
+    color: var(--cor01);
+    
+    width: 40px;
+    height: 40px;
+}
+
+div#dois a{
+    color: var(--cor02);
+    width: 40px;
+    height: 40px;
+}
+
+div#tres a{
+    color: var(--cor03);
+    width: 40px;
+    height: 40px;
+}
+
+div#quatro a{
+    color: var(--cor04);
+    width: 40px;
+    height: 40px;
+}
+
+div#cinco a{
+    color: var(--cor05);
+    width: 40px;
+    height: 40px;
+}
+
+article {
+    margin: auto;
+    background-color: white;
+    width: 800px;
+    padding: 10px;
+
+}

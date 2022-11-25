@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+body {
+    background-color: black;
+    color: white;
+}
+
 div.quadrado {
     display: inline-block;
     background-color: gray;
@@ -19,5 +24,5 @@ div#q2 {
 }
 
 div#q3 {
-    background-image: url('imagens/pattern001');
+    background-image: url('../imagens/pattern002.png');
 }

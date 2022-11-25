@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body {
+    background-image: url('imagens/espaco.jpg');
+}
+
+div {
+    background-image: url('imagens/astronauta.png');
+    background-position: center center;
+    background-size: 1000px;
+}   
